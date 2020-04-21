@@ -6,7 +6,7 @@
       "dataset":[
     {
         "title": "Well and Bore Permits",
-        "description": "Shows the general location of known wells and bores in the Hawke’s Bay Region.  Data is usually obtained where a consent has been granted and the bore construction proceeded (Current Bore Permits). As part of the consent process drillers return the data to Hawke’s Bay Regional Council",
+        "description": "Shows the general location of known wells and bores in the Hawke’s Bay Region. Data is usually obtained where a consent has been granted and the bore construction proceeded (Current Bore Permits). As part of the consent process drillers return the data to Hawke’s Bay Regional Council",
         "identifier": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/83d22b9dc9c545e398c5d78f0282d35c_0",
         "license": "https://creativecommons.org/licenses/by/4.0",
         "keyword": [
@@ -195,3 +195,4 @@
             }
         ]
     }
+]}
