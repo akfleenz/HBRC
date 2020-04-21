@@ -1,14 +1,13 @@
 {
       "@context": "https://www.data.govt.nz/catalog.jsonld",
-      "@id": "https://www.hbrc.govt.nz/data.json",
+      "@id": "https://hbrc.govt.nz/data.json",
       "@type": "dcat:Catalog",
       "conformsTo": "https://www.data.govt.nz/toolkit/schema",
       "dataset":[
     {
         "title": "Well and Bore Permits",
-        "description": "Shows the general location of known wells and bores in the Hawke’s Bay Region. Data is usually obtained where a consent has been granted and the bore construction proceeded (Current Bore Permits). As part of the consent process drillers return the data to Hawke’s Bay Regional Council",
-        "identifier": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/83d22b9dc9c545e398c5d78f0282d35c_0",
-        "license": "https://creativecommons.org/licenses/by/4.0",
+        "description": "Shows the general location of known wells and bores in the Hawke’s Bay Region. Data is usually obtained where a consent has been granted and the bore construction proceeded (Current Bore Permits). As part of the consent process drillers return the data to Hawke’s Bay Regional Council.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
         "keyword": [
             "aquifer",
             "bores",
@@ -19,17 +18,15 @@
             "permits",
             "wells"
         ],
-        "issued": "2019-05-26T21:04:24.000Z",
-        "modified": "2019-06-07T03:56:16.000Z",
         "publisher": {
             "name": "Hawke's Bay Regional Council"
         },
         "contactPoint": {
-            "fn": "HBRC Data",
+            "fn": "Hawke's Bay Regional Council",
             "hasEmail": "info@hbrc.govt.nz"
         },
-        "landingPage": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/83d22b9dc9c545e398c5d78f0282d35c_0",
-        "theme": "[\"geospatial\"]",
+        "accrualPeriodicity": "irregular",
+        "theme": "Local authority",
         "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[176.1996, -40.4102], [177.9551, -40.4102], [177.9551, -38.7743], [176.1996, -38.7743], [176.1996, -40.4102]]]}",
         "distribution": [
             {
@@ -41,157 +38,6 @@
                 "downloadURL": "https://hbmaps.hbrc.govt.nz/arcgis/rest/services/WebMaps/Reporting/MapServer/0",
                 "format": "Esri REST",
                 "title": "Esri Rest API"
-            },
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/83d22b9dc9c545e398c5d78f0282d35c_0.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "GeoJSON",
-                "title": "GeoJSON"
-            },
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/83d22b9dc9c545e398c5d78f0282d35c_0.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "CSV",
-                "title": "CSV"
-            },
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/83d22b9dc9c545e398c5d78f0282d35c_0.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "KML",
-                "title": "KML"
-            },
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/83d22b9dc9c545e398c5d78f0282d35c_0.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "ZIP",
-                "title": "Shapefile"
-            }
-        ]
-    },
-    {
-        "title": "Heretaunga Tamatea Statutory Acknowledgement Area of Interest",
-        "description": "Physical features over which claimant groups have cultural, spiritual, historic and traditional association with specific areas of crown owned land.",
-        "identifier": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/cda36d49f87e4f26af2dc74c2cc310a0_60",
-        "license": "https://creativecommons.org/licenses/by/4.0",
-        "keyword": [
-            "heretaunga tamatea",
-            "open data",
-            "opendatapataka",
-            "acknowledgements",
-            "deed",
-            "recognition",
-            "settlement",
-            "statutory",
-            "treaty"
-        ],
-        "issued": "2019-07-16T02:30:27.000Z",
-        "modified": "2019-07-18T03:10:35.000Z",
-        "publisher": {
-            "name": "Hawke's Bay Regional Council"
-        },
-        "contactPoint": {
-            "fn": "HBRC_Data",
-            "hasEmail": "info@hbrc.govt.nz"
-        },
-        "landingPage": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/cda36d49f87e4f26af2dc74c2cc310a0_60",
-        "theme": "[\"geospatial\"]",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[176.117, -40.4555], [177.0793, -40.4555], [177.0793, -39.3553], [176.117, -39.3553], [176.117, -40.4555]]]}",
-        "distribution": [
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/cda36d49f87e4f26af2dc74c2cc310a0_60",
-                "format": "HTML",
-                "title": "ArcGIS Hub Dataset"
-            },
-            {
-                "downloadURL": "https://hbmaps.hbrc.govt.nz/arcgis/rest/services/WebMaps/Pataka/MapServer/60",
-                "format": "Esri REST",
-                "title": "Esri Rest API"
-            },
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/cda36d49f87e4f26af2dc74c2cc310a0_60.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "GeoJSON",
-                "title": "GeoJSON"
-            },
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/cda36d49f87e4f26af2dc74c2cc310a0_60.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "CSV",
-                "title": "CSV"
-            },
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/cda36d49f87e4f26af2dc74c2cc310a0_60.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "KML",
-                "title": "KML"
-            },
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/cda36d49f87e4f26af2dc74c2cc310a0_60.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "ZIP",
-                "title": "Shapefile"
-            },
-            {
-                "downloadURL": "https://hbmaps.hbrc.govt.nz/arcgis/services/WebMaps/Pataka/MapServer/WMSServer?request=GetCapabilities&service=WMS",
-                "format": "OGC WMS",
-                "title": "OGC WMS"
-            }
-        ]
-    },
-    {
-        "title": "Rangowhakaata Statutory Acknowledgement Vesting Sites",
-        "description": "Physical features over which claimant groups have cultural, spiritual, historic and traditional association with specific areas of crown owned land.",
-        "identifier": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/6f3b9afc87fe4467a12fb138483a06ad_37",
-        "license": "https://creativecommons.org/licenses/by/4.0",
-        "keyword": [
-            "opendatapataka",
-            "rangowhakaata",
-            "acknowledgements",
-            "deed",
-            "recognition",
-            "settlement",
-            "statutory",
-            "treaty"
-        ],
-        "issued": "2019-07-16T23:15:30.000Z",
-        "modified": "2019-07-18T02:44:53.000Z",
-        "publisher": {
-            "name": "Hawke's Bay Regional Council"
-        },
-        "contactPoint": {
-            "fn": "HBRC_Data",
-            "hasEmail": "info@hbrc.govt.nz"
-        },
-        "landingPage": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/6f3b9afc87fe4467a12fb138483a06ad_37",
-        "theme": "[\"geospatial\"]",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[177.7111, -38.9004], [178.0387, -38.9004], [178.0387, -38.6519], [177.7111, -38.6519], [177.7111, -38.9004]]]}",
-        "distribution": [
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/6f3b9afc87fe4467a12fb138483a06ad_37",
-                "format": "HTML",
-                "title": "ArcGIS Hub Dataset"
-            },
-            {
-                "downloadURL": "https://hbmaps.hbrc.govt.nz/arcgis/rest/services/WebMaps/Pataka/MapServer/37",
-                "format": "Esri REST",
-                "title": "Esri Rest API"
-            },
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/6f3b9afc87fe4467a12fb138483a06ad_37.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "GeoJSON",
-                "title": "GeoJSON"
-            },
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/6f3b9afc87fe4467a12fb138483a06ad_37.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "CSV",
-                "title": "CSV"
-            },
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/6f3b9afc87fe4467a12fb138483a06ad_37.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "KML",
-                "title": "KML"
-            },
-            {
-                "downloadURL": "http://hbrcopendata-hbrc.opendata.arcgis.com/datasets/6f3b9afc87fe4467a12fb138483a06ad_37.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "ZIP",
-                "title": "Shapefile"
-            },
-            {
-                "downloadURL": "https://hbmaps.hbrc.govt.nz/arcgis/services/WebMaps/Pataka/MapServer/WMSServer?request=GetCapabilities&service=WMS",
-                "format": "OGC WMS",
-                "title": "OGC WMS"
             }
         ]
     }
